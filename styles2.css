@@ -1,0 +1,117 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Muli', sans-serif;
+    
+}
+
+.undrline{
+    text-decoration: underline;
+}
+
+h1[class="hi"] {
+    text-align: center;
+    font-weight: 600;
+    border-bottom: powderblue 2px solid;
+    padding-bottom: calc(10px + 1vw);
+    color: #F62817;
+    background-color: #f9c74f;
+    border-radius: 8px;
+}
+
+h1[class="wlc"] {
+    text-align: center;
+    font-weight: 600;
+}
+
+.d1 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: 1fr;
+    -ms-grid-columns: (minmax(150px, 1fr))[auto-fit];
+    grid-template: 1fr/repeat(auto-fit, minmax(150px, 1fr));
+}
+
+.d1 .hu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.d1 .hu .cout {
+    background: teal;
+    margin-top: calc(2px + 0.5vw);
+    margin-left: calc(2px + 1vw);
+    border-radius: 4px;
+    padding: 2px;
+    color: #003152;
+    font-size: calc(14px + 1vw);
+    font-weight: 500;
+    padding: calc( 2px + 1vw) calc(auto + 1vw);
+}
+
+.d1 .hu .no {
+    background: steelblue;
+    margin-top: calc(2px + 0.5vw);
+    margin-left: calc(2px + 1vw);
+    font-size: calc(14px + 1vw);
+    border-radius: 4px;
+    color: #f9c74f;
+    font-weight: 400;
+}
+
+option {
+    color: #229179;
+}
+
+.sdw {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+}
+
+.sdw #t2,
+.sdw #t3 {
+    font-size: calc(10px + 1vw);
+    border: solid calc(1px + 0.2vw) #0f5e3f;
+    padding: 4px 4px;
+    border-radius: 4px;
+    background: #003152;
+    max-width: 40%;
+    margin: calc(2% + 1vw);
+}
+
+.ssh {
+    text-align: center;
+}
+
+#t1,
+#t2,
+#t3 {
+    color: #f9c74f;
+}
+
+#t1 {
+    font-size: calc(10px + 1vw);
+    border: solid calc(1px + 0.2vw) #0f5e3f;
+    margin-left: 30px;
+    border-radius: 4px;
+    max-width: 50%;
+    background: #003152;
+    margin: calc(2% + 1vw);
+}
